@@ -1,8 +1,21 @@
 # React + Vite
+# User List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application to display a list of users fetched from the JSONPlaceholder API.
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This application fetches user data from the JSONPlaceholder API and presents it in a user-friendly format. It uses React, Axios for API requests, Ant Design components for UI, and Tailwind CSS for styling.
+
+## Features
+
+- Fetches user data from the JSONPlaceholder API
+- Displays user details in a card-based grid layout
+- Provides links to user websites
+- Responsive design for various screen sizes
+
+## Technologies Used
+React
+Axios
+Ant Design
+Tailwind CSS
